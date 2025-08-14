@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+vendor/
+
+# Ambiente
+.env
+.env.local
+.env*.local
+
+# Banco de dados
+*.sqlite
+*.dump
+/docker/postgres/data/
+/docker/mongo/data/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
