@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "sass": "^1.90.0"
+  },
+
+  "scripts": {
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+  "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+}
+}
